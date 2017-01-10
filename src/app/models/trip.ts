@@ -6,9 +6,10 @@ import {Product} from './product';
 
 export class Trip
 {
+  public id:string = "";
+
   public people:Person[];
   public products:Product[];
-  public things:Stuff[];
 
   constructor()
   {

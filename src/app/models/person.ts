@@ -19,4 +19,8 @@ export class Person
   public eatIndex:number = 1;
   public drinkIndex:number = 1;
   public smokeIndex:number = 1;
+
+  constructor(){
+
+  }
 }
